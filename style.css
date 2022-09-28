@@ -1,0 +1,727 @@
+/* reseteamos el valor por defecto de margin y padding del HTML */
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------Body-------------- */
+.body {
+    background-image: url(multimedia/fondo-2.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+
+/*    -------------------Logo Header --------------------------*/
+.div-logo {
+    margin-left: 0px;
+    margin-top: 50px;
+
+}
+
+.logo-flow {
+    width: 100px;
+
+}
+
+/*--------------------BANNER----------------------*/
+.div-masc {
+    width: 99%;
+    height: 350px;
+    padding: 2px;
+    overflow: hidden;
+    margin-top: 40px;
+    
+
+}
+
+.imagen-masc {
+    width: 1200px;
+    padding: center;
+    margin-top: -200px;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+/*---------Zona navegable------------- */
+.nav-1 {
+    list-style: none;
+    width: 99%;
+    height: 70px;
+    margin-top: -50px;
+    background-color: black;
+    opacity: 80%;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ul-lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -50px;
+    margin-left: 800px;
+
+}
+
+.div-flow-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 45px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: overline white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*---------------seccion 1-------------------*/
+
+.todos-los-shows {
+    border: solid 0px white;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 50px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.show-1 {
+    width: 400px;
+    border: solid 4px white;
+}
+
+.show-2 {
+    width: 400px;
+    border: solid 4px white;
+}
+
+.show-3 {
+    width: 420px;
+    border: solid 4px white;
+}
+
+.div-shows {
+    color: white;
+    width: 80%;
+    border: solid 0px white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.proximos-shows {
+    color: white;
+
+}
+
+/*--------------seccion 2----------------*/
+
+video {
+    width: 1300px;
+    padding: center;
+    overflow: hidden;
+    margin-top: -100px;
+
+}
+
+.video-div {
+    width: 90%;
+    border: solid 1px white;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.playlist {
+    color: black;
+    width: 100%;
+    border: solid 0px brown;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 25px;
+
+}
+
+.playlist-titulo {
+    border: solid 2px white;
+    background-color: honeydew;
+    opacity: 20%;
+    font-size: 25px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+
+}
+
+.link-spotify {
+    width: 10%;
+    background-color: aqua;
+    border: solid 0px brown;
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 280px;
+    position: absolute;
+    border-radius: 40px;
+    color: black;
+    opacity: 30%;
+}
+
+.p-link {
+    width: 250px;
+    margin-left: 20px;
+}
+
+/*----------------------footer-------------------*/
+.nota-pie {
+    color: white;
+    margin-right: 650px;
+
+}
+
+.desarrollado {
+    margin-right: 30px;
+    color: white;
+    margin-top: 60px;
+    font-size: 12px;
+    position: absolute;
+}
+
+.nav-footer {
+    border: solid 2px white;
+    width: 100%;
+}
+
+.nav-2 {
+    border: solid 0px white;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    opacity: 100%;
+    font-size: 12px;
+    bottom: 0;
+    margin-top: 50px;
+
+}
+
+.lista-footer {
+    margin-right: 300px;
+    list-style: none;
+}
+
+.lista-footer-2 {
+    margin-right: 550px;
+    position: absolute;
+    list-style: none;
+
+}
+
+.div-logo-2 {
+    margin-right: 100px;
+    position: absolute;
+    margin-right: 1250px;
+}
+
+.div-redes {
+    color: white;
+    margin-right: 200px;
+    position: absolute;
+    margin-top: 20px;
+
+}
+
+.logos-redes {
+    display: flex;
+    position: absolute;
+    margin-right: 90px;
+    margin-top: 0px;
+
+}
+
+.facebook {
+    width: 15px;
+    margin-top: 10px;
+}
+
+.instagram {
+    width: 50px;
+    position: absolute;
+    margin-left: 40px;
+
+
+}
+
+.whatsapp {
+    width: 50px;
+
+}
+
+/*---------------Eventos.html---------------*/
+.div-proximos-shows {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    opacity: 80%;
+    border-radius: 40px;
+}
+
+.h2-shows {
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+/*-----------shows imagenes--------------*/
+
+/*-------------show 1--------------------*/
+.div-imagen-polaco {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 20px;
+}
+
+.imagen-polaco {
+    width: 50%;
+}
+
+.div-titulo-polaco {
+    margin-top: 50px;
+    margin-left: 25px;
+
+
+}
+
+.titulo-polaco {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: overline;
+}
+
+.div-parrafo-polaco {
+    width: 20%;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 1050px;
+
+}
+
+.parrafo-polaco {
+    font-size: 20px;
+    color: white;
+}
+
+/*---------------show 2--------------------*/
+.div-imagen-damasgratis {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.imagen-damasgratis {
+    width: 50%;
+}
+
+.div-titulo-damasgratis {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+
+}
+
+.titulo-damasgratis {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 20px;
+    text-decoration: overline;
+}
+
+.div-parrafo-damasgratis {
+    width: 20%;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 35px;
+}
+
+.parrafo-damasgratis {
+    font-size: 20px;
+    color: white;
+}
+
+/*---------------show 3--------------------*/
+
+.div-imagen-karina {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 20px;
+}
+
+.imagen-karina {
+    width: 50%;
+
+}
+
+
+.div-titulo-karina {
+    margin-top: 50px;
+    margin-left: 25px;
+
+
+}
+
+.titulo-karina {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: overline;
+}
+
+.div-parrafo-karina {
+    width: 20%;
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 1050px;
+
+}
+
+.parrafo-karina {
+    font-size: 20px;
+    color: white;
+}
+
+/*---------------show 4--------------------*/
+
+.div-imagen-callejero {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.imagen-callejero {
+    width: 50%;
+}
+
+.div-titulo-callejero {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+
+}
+
+.titulo-callejero {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 20px;
+    text-decoration: overline;
+}
+
+.div-parrafo-callejero {
+    width: 20%;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 35px;
+}
+
+.parrafo-callejero {
+    font-size: 20px;
+    color: white;
+}
+
+
+/*------------------Promociones html-------------*/
+
+.div-promociones{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: overline white;
+
+}
+.promociones{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.div-imagenes-promo{
+    width: 80%;
+    overflow: hidden;
+   margin-left: 150px;
+    }
+
+    .promo1{
+        width: 800px;
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
+    .promo2{
+        width: 800px;
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
+    .promo3{
+        width: 800px;
+        margin-left: 150px;
+        margin-bottom: 30px;
+       
+    }
+    .promo4{
+        width: 800px;
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
+
+    .parrafo-pagos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    }
+
+    .pagos{
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+    }
+/*------------------Ubicacion html-------------*/
+
+.div-mapa {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 60%;
+}
+
+.mapa {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.div-ubicacion {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+    border-radius: 20px;
+
+}
+
+.ubicacion-titulo {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+.div-direccion {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    margin-left: 80px;
+    margin-top: -495px;
+    position: absolute;
+}
+
+.direccion {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 100px;
+    text-decoration: underline;
+}
+
+.div-parrafo-direccion {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    margin-left: 690px;
+    margin-top: -420px;
+    position: absolute;
+
+}
+
+.parrafo-direccion {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.div-comollegar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.comollegar {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*------------------contacto-------------*/
+.form {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+
+}
+
+input {
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.div-enviar {
+    border: solid 1px;
+    width: 20%;
+}
+
+.enviar {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.div-contactanos {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contactanos {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 320px;
+}
+
+.consultas {
+    color: white;
+    font-size: 25px;
+    margin-right: 600px;
+}
+
+.imagenes-redes {
+    align-items: center;
+    width: 50px;
+    height: 400px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -350px;
+}
+
+.logo-wsp {
+    width: 80px;
+
+}
+
+.logo-instagram {
+    width: 80px;
+}
+
+.logo-facebook {
+    width: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.parrafo-redes {
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -330px;
+    color: white;
+
+}
+
+.numero{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.insta{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.face{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 60px;
+
+}
+
+.div-nota-pie{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+width: 99%;
+position: relative;
+}
+
+.nota-pie{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 30px;
+
+}
