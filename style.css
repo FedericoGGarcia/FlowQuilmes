@@ -8,8 +8,8 @@
 /* -------------Body-------------- */
 .body {
     background-image: url(multimedia/fondo-2.jpg);
-    height: 100%;
-    background-repeat: no-repeat;
+    height: 100vh;
+    background-repeat: repeat;
     background-position: center center;
     width: 100%;
     background-size: cover;
@@ -33,8 +33,8 @@
 
 /*--------------------BANNER----------------------*/
 .div-masc {
-    width: 99%;
-    height: 350px;
+    width: 90%;
+    height: 90%;
     padding: 2px;
     overflow: hidden;
     margin-top: 40px;
@@ -43,11 +43,11 @@
 }
 
 .imagen-masc {
-    width: 1200px;
+    width: 100%;
     padding: center;
     margin-top: -200px;
-    margin-left: 60px;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /*---------Zona navegable------------- */
@@ -89,7 +89,9 @@ h1 {
 a {
     text-decoration: none;
     color: white;
+    
 }
+
 
 /*---------------seccion 1-------------------*/
 
@@ -314,13 +316,15 @@ video {
 }
 
 .div-titulo-polaco {
+    display: flex;
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 50px;
 
 
 }
 
 .titulo-polaco {
+    
     color: white;
     font-size: 25px;
     font-weight: 400;
@@ -366,7 +370,7 @@ video {
     color: white;
     font-size: 25px;
     font-weight: 400;
-    margin-right: 20px;
+    margin-right: 50px;
     text-decoration: overline;
 }
 
@@ -398,8 +402,9 @@ video {
 
 
 .div-titulo-karina {
+    display: flex;
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 50px;
 
 
 }
@@ -451,7 +456,7 @@ video {
     color: white;
     font-size: 25px;
     font-weight: 400;
-    margin-right: 20px;
+    margin-right: 50px;
     text-decoration: overline;
 }
 
@@ -467,6 +472,11 @@ video {
     color: white;
 }
 
+h3:hover{
+    transform: scale(1.3);
+    transition: all 1.5s;
+    color: yellow;
+}
 
 /*------------------Promociones html-------------*/
 
@@ -491,23 +501,23 @@ video {
     }
 
     .promo1{
-        width: 800px;
+        width: 75%;
         margin-left: 150px;
         margin-bottom: 30px;
     }
     .promo2{
-        width: 800px;
+        width: 75%;
         margin-left: 150px;
         margin-bottom: 30px;
     }
     .promo3{
-        width: 800px;
+        width: 75%;
         margin-left: 150px;
         margin-bottom: 30px;
        
     }
     .promo4{
-        width: 800px;
+        width: 75%;
         margin-left: 150px;
         margin-bottom: 30px;
     }
