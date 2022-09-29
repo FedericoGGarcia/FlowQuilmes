@@ -7,7 +7,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>FlowQuilmes</title>
    <link rel="icon" href="multimedia/logo-flow.png">
-   <link rel="stylesheet" href="style.css">
+   <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
    <enlace rel="preconectar" href="https://fonts.googleapis.com">
       <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
          <enlace rel="preconectar" href="https://fonts.googleapis.com">
@@ -15,29 +18,40 @@
                <enlace
                   href="https: //fonts.googleapis.com/css2? familia= Oswald:peso@200;300;400;500;600 & display=swap"
                   rel="stylesheet">
-                  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="body">
-
-   <!-- Header / Encabezado -->
+   <!----------------- header / encabezado ----------------->
 
    <header class="header">
 
-      <!-- Zona navegable -->
-      <nav class="nav-1">
-         <div class="div-logo">
-            <img src="multimedia/logo-flow.png" alt="logo-flow" class="logo-flow">
+      <!-- Scrips js Boostrap-->
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+         crossorigin="anonymous"></script>
+
+      <!---------------- Zona navegable ----------------->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="#">FLOW</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+             <div class="navbar-nav">
+               <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+               <a class="nav-link" href="eventos.html">Eventos</a>
+               <a class="nav-link" href="promociones.html">Promociones</a>
+               <a class="nav-link" href="contacto.html">Contacto</a>
+               <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+             </div>
+           </div>
          </div>
-         <!-- menu de navegacion / secciones -->
-         <ul class="ul-lista">
-            <li> <a href="index.html">Inicio</a> </li>
-            <li> <a href="eventos.html">Eventos</a> </li>
-            <li> <a href="promociones.html">Promociones</a> </li>
-            <li> <a href="ubicacion.html">Ubicacion</a> </li>
-            <li> <a href="contacto.html">Contacto</a> </li>
-         </ul>
-      </nav>
+       </nav>
    </header>
 
 
@@ -49,9 +63,7 @@
             <h2 class="promociones">Promociones</h2>
          </div>
         
-         <div class="div-imagenes-promo" data-aos="fade-down"
-         data-aos-easing="linear"
-         data-aos-duration="1500">
+         <div class="div-imagenes-promo">
             <img src="multimedia/promo1.png" alt="promo1" class="promo1" >
             <img src="multimedia/promo2.png" alt="promo2" class="promo2">
             <img src="multimedia/promo3.jpg" alt="promo3" class="promo3">
@@ -70,47 +82,53 @@
 
    <!--Footer/pie de pagina-->
 
-   <nav class="nav-2">
-      <div class="logos-redes">
-         <a href="https://www.facebook.com/flowquilmes" target="_blank">
-            <img src="multimedia/facebook-logo.png" alt="facebook" class="facebook">
-         </a>
-         <a href="https://www.instagram.com/flow_quilmes/" target="_blank">
-            <img src="multimedia/instagram-logo.png" alt="instagram" class="instagram">
-         </a>
-         <a href="">
-            <img src="multimedia/whatsapp-logo.png" alt="whatsapp" class="whatsapp">
-         </a>
-      </div>
-      <div class="nota-pie">
-         <p>Tel: 1108002314</p>
-         <p>Quilmes Oeste, Buenos aires <br>Argentina </p>
-      </div>
-      <div class="desarrollado">
-         <p>Desarrolado por Federico Garcia </p>
-      </div>
+      <!-- Footer -->
+<footer class="footer bg-dark text-center text-white">
+   <!-- Grid container -->
+   <div class="container p-4">
+ 
+     <!-- Section: Social media -->
+     <section class="mb-4">
+       <!-- Facebook -->
+       <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="" role="button">
+         <img src="multimedia/facebook-logo.png" alt="Facebook" class="logos facebook"><i class="fab fa-facebook-f"></i></a>
+ 
+       <!-- Twitter -->
+       <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button">  
+         <img src="multimedia/twitter-logo.png" alt="Twitter" class="logos twitter"><i class="fab fa-twitter"></i></a>
 
-      <div class="div-logo-2">
-         <img src="multimedia/logo-flow.png" alt="logo-flow" class="logo-flow">
-      </div>
-      <ul class="lista-footer">
-         <li> <a href="index.html">Inicio</a> </li>
-         <li> <a href="eventos.html">Nosotros</a> </li>
-         <li> <a href="promociones.html">Promociones</a> </li>
-         <li> <a href="ubicacion.html">Ubicacion</a> </li>
-         <li> <a href="contacto.html">Contacto</a> </li>
-      </ul>
-      <ul class="lista-footer-2">
-         <li class="mas-info"> <a href="masinformacion.html">Mas Informacion</a> </li>
-         <li class="preguntas"> <a href="PreguntasFrecuentes.html">Preguntas Frecuentes</a> </li>
-      </ul>
-      <div class="div-redes">
-         <h3 class="redes">Redes</h3>
-      </div>
-   </nav>
-
-
-
+       <!-- Instagram -->
+       <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button">
+         <img src="multimedia/instagram-logo.png" alt="instagram" class="logos instagram"><i class="fab fa-instagram"></i></a>
+ 
+       <!-- Linkedin -->
+       <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button">
+         <img src="multimedia/whatsapp-logo.png" alt="whatsapp" class=" logos whatsapp"><i class="fab fa-linkedin-in"></i></a>
+       <!-- Github -->
+     </section>
+ 
+     <!-- Section: Text -->
+     <section class="mb-4">
+       <p>
+         Tel: 1108002314 <br>
+         Quilmes Oeste, Buenos aires <br>Argentina 
+       </p>
+     </section>
+     <!-- Section: Text -->
+ 
+ 
+   </div>
+   <!-- Grid container -->
+ 
+   <!-- Copyright -->
+   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+     © 2020 Copyright:
+     <a class="text-white" href="">Federico Garcia</a>
+   </div>
+   <!-- Copyright -->
+ 
+ </footer>
+ <!-- Footer -->
 
 </body>
 

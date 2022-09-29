@@ -20,16 +20,7 @@
 
 
 /*    -------------------Logo Header --------------------------*/
-.div-logo {
-    margin-left: 0px;
-    margin-top: 50px;
 
-}
-
-.logo-flow {
-    width: 100px;
-
-}
 
 /*--------------------BANNER----------------------*/
 .div-masc {
@@ -38,7 +29,7 @@
     padding: 2px;
     overflow: hidden;
     margin-top: 40px;
-    
+
 
 }
 
@@ -51,25 +42,9 @@
 }
 
 /*---------Zona navegable------------- */
-.nav-1 {
-    list-style: none;
-    width: 99%;
-    height: 70px;
-    margin-top: -50px;
+
+.background-nav {
     background-color: black;
-    opacity: 80%;
-    font-size: 14px;
-    font-weight: 300;
-    font-family: 'Oswald', sans-serif;
-}
-
-.ul-lista {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: -50px;
-    margin-left: 800px;
-
 }
 
 .div-flow-titulo {
@@ -78,7 +53,7 @@
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 150%;
     margin-top: 45px;
     color: white;
     font-weight: 400;
@@ -89,7 +64,7 @@ h1 {
 a {
     text-decoration: none;
     color: white;
-    
+
 }
 
 
@@ -98,24 +73,24 @@ a {
 .todos-los-shows {
     border: solid 0px white;
     display: flex;
-    margin-right: 10px;
-    margin-left: 50px;
+    margin-right: 2%;
+    margin-left: 7%;
     overflow: hidden;
     margin-top: 10px;
 }
 
 .show-1 {
-    width: 400px;
+    width: 30%;
     border: solid 4px white;
 }
 
 .show-2 {
-    width: 400px;
+    width: 30%;
     border: solid 4px white;
 }
 
 .show-3 {
-    width: 420px;
+    width: 30%;
     border: solid 4px white;
 }
 
@@ -125,8 +100,8 @@ a {
     border: solid 0px white;
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
-    margin-left: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .proximos-shows {
@@ -137,7 +112,7 @@ a {
 /*--------------seccion 2----------------*/
 
 video {
-    width: 1300px;
+    width: 100%;
     padding: center;
     overflow: hidden;
     margin-top: -100px;
@@ -145,145 +120,38 @@ video {
 }
 
 .video-div {
-    width: 90%;
+    width: 80%;
     border: solid 1px white;
     display: inline-block;
     overflow: hidden;
-    margin-top: 0px;
-    margin-left: 70px;
-    margin-right: 50px;
-    margin-top: 50px;
-    height: 300px;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 5%;
+   margin-bottom: 10%;
+    height: 100%;
 }
 
-.playlist {
-    color: black;
-    width: 100%;
-    border: solid 0px brown;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    position: absolute;
-    font-size: 25px;
 
-}
-
-.playlist-titulo {
-    border: solid 2px white;
-    background-color: honeydew;
-    opacity: 20%;
-    font-size: 25px;
-    border-radius: 40px;
-    font-weight: 600;
-    font-family: 'Oswald', sans-serif;
-    font-style: italic;
-
-}
-
-.link-spotify {
-    width: 10%;
-    background-color: aqua;
-    border: solid 0px brown;
-    display: flex;
-    justify-content: center;
-    margin-left: 600px;
-    margin-top: 280px;
-    position: absolute;
-    border-radius: 40px;
-    color: black;
-    opacity: 30%;
-}
-
-.p-link {
-    width: 250px;
-    margin-left: 20px;
-}
 
 /*----------------------footer-------------------*/
-.nota-pie {
-    color: white;
-    margin-right: 650px;
-
+.footer{
+    margin-top: auto;
+}
+.mb-4{
+    font-size: 80%;
 }
 
-.desarrollado {
-    margin-right: 30px;
-    color: white;
-    margin-top: 60px;
-    font-size: 12px;
-    position: absolute;
+.logos{
+    width: 70%;
 }
 
-.nav-footer {
-    border: solid 2px white;
-    width: 100%;
-}
-
-.nav-2 {
-    border: solid 0px white;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    background-color: rgb(29, 28, 28);
-    opacity: 100%;
-    font-size: 12px;
-    bottom: 0;
-    margin-top: 50px;
-
-}
-
-.lista-footer {
-    margin-right: 300px;
-    list-style: none;
-}
-
-.lista-footer-2 {
-    margin-right: 550px;
-    position: absolute;
-    list-style: none;
-
-}
-
-.div-logo-2 {
-    margin-right: 100px;
-    position: absolute;
-    margin-right: 1250px;
-}
-
-.div-redes {
-    color: white;
-    margin-right: 200px;
-    position: absolute;
-    margin-top: 20px;
-
-}
-
-.logos-redes {
-    display: flex;
-    position: absolute;
-    margin-right: 90px;
-    margin-top: 0px;
-
-}
-
-.facebook {
-    width: 15px;
-    margin-top: 10px;
-}
-
-.instagram {
+.m-1{
     width: 50px;
-    position: absolute;
-    margin-left: 40px;
-
-
+    height: 50px;
+    moz-border-radius: 50%;
+    webkit-border-radius: 50%;
+    border-radius: 50%;
 }
-
-.whatsapp {
-    width: 50px;
-
-}
-
 /*---------------Eventos.html---------------*/
 .div-proximos-shows {
     margin-top: 70px;
@@ -324,7 +192,7 @@ video {
 }
 
 .titulo-polaco {
-    
+
     color: white;
     font-size: 25px;
     font-weight: 400;
@@ -472,7 +340,7 @@ video {
     color: white;
 }
 
-h3:hover{
+h3:hover {
     transform: scale(1.3);
     transition: all 1.5s;
     color: yellow;
@@ -480,7 +348,7 @@ h3:hover{
 
 /*------------------Promociones html-------------*/
 
-.div-promociones{
+.div-promociones {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -488,52 +356,57 @@ h3:hover{
     text-decoration: overline white;
 
 }
-.promociones{
+
+.promociones {
     color: white;
     font-size: 40px;
     font-weight: 500;
 }
 
-.div-imagenes-promo{
+.div-imagenes-promo {
     width: 80%;
     overflow: hidden;
-   margin-left: 150px;
-    }
+    margin-left: 150px;
+}
 
-    .promo1{
-        width: 75%;
-        margin-left: 150px;
-        margin-bottom: 30px;
-    }
-    .promo2{
-        width: 75%;
-        margin-left: 150px;
-        margin-bottom: 30px;
-    }
-    .promo3{
-        width: 75%;
-        margin-left: 150px;
-        margin-bottom: 30px;
-       
-    }
-    .promo4{
-        width: 75%;
-        margin-left: 150px;
-        margin-bottom: 30px;
-    }
+.promo1 {
+    width: 75%;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
 
-    .parrafo-pagos{
+.promo2 {
+    width: 75%;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.promo3 {
+    width: 75%;
+    margin-left: 150px;
+    margin-bottom: 30px;
+
+}
+
+.promo4 {
+    width: 75%;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.parrafo-pagos {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 30px;
-    }
+}
 
-    .pagos{
-        color: white;
-        font-size: 20px;
-        font-weight: 300;
-    }
+.pagos {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 /*------------------Ubicacion html-------------*/
 
 .div-mapa {
@@ -703,33 +576,33 @@ textarea {
 
 }
 
-.numero{
+.numero {
     font-size: 20px;
     font-weight: 400;
 }
 
-.insta{
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 60px;
-}
-
-.face{
+.insta {
     font-size: 20px;
     font-weight: 400;
     margin-top: 60px;
+}
+
+.face {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 60px;
 
 }
 
-.div-nota-pie{
-margin-top: 50px;
-display: flex;
-justify-content: center;
-width: 99%;
-position: relative;
+.div-nota-pie {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    position: relative;
 }
 
-.nota-pie{
+.nota-pie {
     font-size: 15px;
     font-weight: 300;
     margin-left: 30px;
